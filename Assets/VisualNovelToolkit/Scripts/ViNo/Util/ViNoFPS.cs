@@ -4,6 +4,7 @@
 //_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/.
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
  
 public class ViNoFPS : MonoBehaviour{
 	public int targetFPS = 60;
@@ -71,8 +72,8 @@ public class ViNoFPS : MonoBehaviour{
 			}		
 			str.Append( "</color>" );
 			
-			if( guiText != null) {
-				guiText.text = str.ToString();
+			if( GetComponent<Text>() != null) {
+				GetComponent<Text>().text = str.ToString();
 			}
 			else if( textMesh != null ){
 				textMesh.text = str.ToString();

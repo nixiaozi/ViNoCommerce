@@ -166,9 +166,9 @@ public class ViNoGameSaveLoad {
    // Finally our save and load methods for the file itself 
  	static public void CreateXML( string dataStr ){ 				
 		_FileLocation = GetDataPath();
-		if( Application.platform == RuntimePlatform.WindowsWebPlayer
+		if( Application.platform == RuntimePlatform.WindowsPlayer  // WindowsWebPlayer 已经被弃用了
 								||
-			 Application.platform == RuntimePlatform.OSXWebPlayer ){
+			 Application.platform == RuntimePlatform.OSXPlayer ){
 				ViNoDebugger.LogWarning( "WebPlayer not support FileInfo. Can't CreateXML." );
 			return;
 		}

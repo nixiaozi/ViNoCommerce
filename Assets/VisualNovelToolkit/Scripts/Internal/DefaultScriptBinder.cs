@@ -27,9 +27,9 @@ public class DefaultScriptBinder : ScriptBinder{
 		string texpath = VM.loadedTextLiteralString;
 		Texture2D tex = Resources.Load( texpath ) as Texture2D;		
 		GameObject obj = tweenData.tweenTarget;						
-		if( obj.renderer != null ){
-			if( obj.renderer.sharedMaterial != null ){
-				obj.renderer.sharedMaterial.mainTexture = tex;	
+		if( obj.GetComponent<Renderer>() != null ){
+			if( obj.GetComponent<Renderer>().sharedMaterial != null ){
+				obj.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;	
 
 				ViNoDebugger.Log ( "loaded texture and the GameObject Name will change to :" + texpath );
 				obj.name = texpath;

@@ -216,8 +216,8 @@ public class DrawObjectsTab  {
 		Material material = new Material (Shader.Find( "Unlit/UnlitAlphaWithFade" ));
 		AssetDatabase.CreateAsset(material , pathWithoutExt + childName + ".mat");					
 		
-		body.renderer.sharedMaterial = material;
-		body.renderer.sharedMaterial.mainTexture = tex;
+		body.GetComponent<Renderer>().sharedMaterial = material;
+		body.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
 				
 		if( tex != null ){
 			body.localScale = new Vector3( tex.width , tex.height , 1f );

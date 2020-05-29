@@ -164,13 +164,13 @@ using System.Collections.Generic;
 				if( i == m_VoiceIndex ){
 					continue;	
 				}
-				if( ! m_AudioPool[ i ].audio.isPlaying ){
-					audioSource = m_AudioPool[ i ].audio;
+				if( ! m_AudioPool[ i ].GetComponent<AudioSource>().isPlaying ){
+					audioSource = m_AudioPool[ i ].GetComponent<AudioSource>();
 					break;
 				}
 			}	
 			if( audioSource == null ){
-				audioSource = m_AudioPool[ 1 ].audio;	// m_AudioSourcePool[ 0 ] is Voice.
+				audioSource = m_AudioPool[ 1 ].GetComponent<AudioSource>();	// m_AudioSourcePool[ 0 ] is Voice.
 			}
 
 			float volume = ViNoConfig.prefsSeVolume;				
@@ -178,7 +178,7 @@ using System.Collections.Generic;
 		}
 		
 		public override void PlayVoice( string path , bool loop , float xchbgmTime = 0f ){
-			AudioSource audioSource = m_AudioPool[ m_VoiceIndex ].audio;
+			AudioSource audioSource = m_AudioPool[ m_VoiceIndex ].GetComponent<AudioSource>();
 
 			float volume = ViNoConfig.prefsVoiceVolume;				
 			LoadAudioClipAndPlayDelayed( audioSource , path , volume ,  xchbgmTime , loop );			
@@ -241,7 +241,7 @@ using System.Collections.Generic;
 		/// </param>
 		public override void StopSE(){
 			for( int i =0;i<k_SeAndVoicePlayMax;i++){
-				m_AudioPool[ i ].audio.Stop();
+				m_AudioPool[ i ].GetComponent<AudioSource>().Stop();
 			}
 		}	
 		
@@ -255,7 +255,7 @@ using System.Collections.Generic;
 		/// Fade time.
 		/// </param>
 		public override void StopVoice( ){
-			m_AudioPool[ m_VoiceIndex ].audio.Stop();
+			m_AudioPool[ m_VoiceIndex ].GetComponent<AudioSource>().Stop();
 		}
 
 /*

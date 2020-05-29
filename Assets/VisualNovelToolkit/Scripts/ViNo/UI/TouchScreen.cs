@@ -29,7 +29,7 @@ public class TouchScreen : MonoBehaviour {
 	    }
 
 	    if( rayTest ){
-		    ray = camera.ScreenPointToRay( Input.mousePosition );
+		    ray = GetComponent<Camera>().ScreenPointToRay( Input.mousePosition );
 	    }
 	    
 #elif UNITY_IPHONE || UNITY_ANDROID

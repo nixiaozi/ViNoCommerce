@@ -229,13 +229,13 @@ public class ViNoSoundPlayer : ISoundPlayer {
 				if( i == m_VoiceIndex ){
 					continue;	
 				}
-				if( ! m_AudioPool[ i ].audio.isPlaying ){
-					audioSource = m_AudioPool[ i ].audio;
+				if( ! m_AudioPool[ i ].GetComponent<AudioSource>().isPlaying ){
+					audioSource = m_AudioPool[ i ].GetComponent<AudioSource>();
 					break;
 				}
 			}		
 			if( audioSource == null ){
-				audioSource = m_AudioPool[ 1 ].audio;	// m_AudioSourcePool[ 0 ] is Voice.
+				audioSource = m_AudioPool[ 1 ].GetComponent<AudioSource>();	// m_AudioSourcePool[ 0 ] is Voice.
 			}						
 			AudioClip clip = m_SE_and_VoiceSoundDict[ name ];						
 			audioSource.clip = clip;
@@ -271,7 +271,7 @@ public class ViNoSoundPlayer : ISoundPlayer {
 	/// </param>
 	public override void PlayVoice( string name , float volume , float delay ){
 		if( m_SE_and_VoiceSoundDict.ContainsKey( name ) ){
-			AudioSource	audioSource = m_AudioPool[ m_VoiceIndex ].audio;						
+			AudioSource	audioSource = m_AudioPool[ m_VoiceIndex ].GetComponent<AudioSource>();						
 			AudioClip clip = m_SE_and_VoiceSoundDict[ name ];						
 			audioSource.clip = clip;
 			audioSource.volume = volume;				
@@ -321,7 +321,7 @@ public class ViNoSoundPlayer : ISoundPlayer {
 	/// </param>
 	public override void StopSE(){
 		for( int i =0;i<k_SeAndVoicePlayMax;i++){
-			m_AudioPool[ i ].audio.Stop();
+			m_AudioPool[ i ].GetComponent<AudioSource>().Stop();
 		}
 	}	
 	
@@ -335,7 +335,7 @@ public class ViNoSoundPlayer : ISoundPlayer {
 	/// Fade time.
 	/// </param>
 	public override void StopVoice( ){
-		m_AudioPool[ m_VoiceIndex ].audio.Stop();
+		m_AudioPool[ m_VoiceIndex ].GetComponent<AudioSource>().Stop();
 	}
 
 	//TODO : IMPL.

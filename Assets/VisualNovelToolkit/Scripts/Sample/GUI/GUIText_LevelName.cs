@@ -4,6 +4,7 @@
 //_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/.
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 /// <summary>
 /// Show GUI text_ level name at the top of left corner.
@@ -12,20 +13,20 @@ public class GUIText_LevelName : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if( guiText != null ){	
+		if( GetComponent<Text>() != null ){	
 			SetCurrentLevelName();
 		}
 	}
 	
 	void Update(){
-		if( guiText != null ){	
-			if( string.IsNullOrEmpty( guiText.text ) || guiText.text != Application.loadedLevelName  ){	
+		if(GetComponent<Text>() != null ){	
+			if( string.IsNullOrEmpty(GetComponent<Text>().text ) || GetComponent<Text>().text != Application.loadedLevelName  ){	
 				SetCurrentLevelName();
 			}
 		}
 	}
 	
 	void SetCurrentLevelName( ){
-		guiText.text = Application.loadedLevelName;			
+		GetComponent<Text>().text = Application.loadedLevelName;			
 	}
 }
