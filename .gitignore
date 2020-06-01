@@ -3,3 +3,6 @@
 ################################################################################
 
 /UITest/Library
+/UITest/Logs
+/UITest/obj/Debug
+/UITest/Temp
