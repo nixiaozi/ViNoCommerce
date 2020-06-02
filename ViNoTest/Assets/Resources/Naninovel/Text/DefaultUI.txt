@@ -1,0 +1,55 @@
+VariableInput.Submit: SUBMIT
+SettingsMenu.VolumeVoice: Voice volume:
+SettingsMenu.VolumeMusic: Music volume:
+SettingsMenu.VolumeMaster: Master volume:
+SettingsMenu.VolumeEffects: Effects volume:
+SettingsMenu.Tab.Text: TEXT
+SettingsMenu.Tab.Sound: SOUND
+SettingsMenu.Tab.Basic: BASIC
+SettingsMenu.SkipMode: Skip mode:
+SettingsMenu.ScreenMode: Screen mode:
+SettingsMenu.Resolution: Resolution:
+SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam in felis purus. 
+SettingsMenu.Preview: Preview
+SettingsMenu.MessageSpeed: Message speed:
+SettingsMenu.Language: Language:
+SettingsMenu.Graphics: Graphics:
+SettingsMenu.FontSize: Font size:
+SettingsMenu.Font: Font:
+SettingsMenu.AutoDelay: Auto delay:
+SaveLoadMenu.Tab.Save: SAVE
+SaveLoadMenu.Tab.QuickLoad: Q. LOAD
+SaveLoadMenu.Tab.Load: LOAD
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Are you sure you want to overwrite save slot?
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Are you sure you want to delete save slot?
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Empty
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Read Only
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Everything
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Windowed
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Maximized Window
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Full Screen Window
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Full Screen
+Naninovel.UI.GameSettingsFontSizeSlider.RestartMessage: Please restart the game to revert to the original font size.
+Naninovel.UI.GameSettingsFontDropdown.RestartMessage: Please restart the game to revert to the original font.
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Are you sure you want to quit to the title screen? Any unsaved game progress will be lost.
+General.Return: RETURN
+General.Close: CLOSE
+ExternalScriptsBrowser.Title: EXTERNAL SCRIPTS
+ExternalScriptsBrowser.Info: Select a script to play
+ControlPanel.Title: TITLE
+ControlPanel.Tips: TIPS
+ControlPanel.Skip: SKIP
+ControlPanel.Settings: SETTINGS
+ControlPanel.Save: SAVE
+ControlPanel.QuickSave: Q.SAVE
+ControlPanel.QuickLoad: Q.LOAD
+ControlPanel.Log: LOG
+ControlPanel.Load: LOAD
+ControlPanel.Hide: HIDE
+ControlPanel.Auto: AUTO
+Confirmation.Yes: YES
+Confirmation.No: NO
+TitleMenu.Continue: CONTINUE
+TitleMenu.Exit: EXIT
+TitleMenu.Settings: SETTINGS
+CGGallery.Title: CG GALLERY

@@ -349,11 +349,6 @@
     <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_IOS.cs" />
     <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_UnloadLanguages.cs" />
     <Compile Include="Assets\I2\Localization\Scripts\Editor\UpgradeManager.cs" />
-    <Compile Include="Assets\Tests\Editor\FungusConversationParseTests.cs" />
-    <Compile Include="Assets\Tests\Editor\FungusPrioritySignalsTest.cs" />
-    <Compile Include="Assets\Tests\Editor\FungusTextVariationSelectionTests.cs" />
-    <Compile Include="Assets\Tests\Editor\GenerateEverythingMenuItem.cs" />
-    <Compile Include="Assets\Tests\Editor\TextTagParserTests.cs" />
     <None Include="Assets\Doozy\Editor\Nody\Shaders\LineDraw.shader" />
     <None Include="Assets\I2\Localization\Scripts\Editor\Unity XCode\Xcode.txt" />
     <Reference Include="UnityEditor.TestRunner">
@@ -974,29 +969,21 @@
       <Project>{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{B25FBF8A-ECE0-B912-7853-4C543206F7D9}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{13A9ADF4-6381-406B-C041-B30705CEDB92}</Project>
+      <Name>UniRx.Async</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusEditor.csproj">
-      <Project>{2FF3CFF7-D73C-50E0-F92A-E5923AA7D64C}</Project>
-      <Name>FungusEditor</Name>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{42583C6E-E9ED-AC40-5FAB-B4FB3B140530}</Project>
+      <Name>UniRx.Async.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{ADBF6F09-0645-A72A-22F6-A927584BF29A}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
+    <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
+      <Project>{0D02A66A-DE62-1589-8BBD-D491672D3DE4}</Project>
+      <Name>Elringus.Naninovel.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{7F024155-9F8E-00F0-06AA-7CA437585D25}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{1ED6C1CF-47D0-860E-3747-98F794DF9760}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{19B0B47D-7618-0527-7F27-38C7C8F3EE30}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
+    <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
+      <Project>{AD2E2D2A-7D25-8481-A54C-803BD909DF4D}</Project>
+      <Name>Elringus.Naninovel.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

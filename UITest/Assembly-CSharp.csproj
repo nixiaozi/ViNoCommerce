@@ -408,32 +408,67 @@
     <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguage.cs" />
     <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguageDropdown.cs" />
     <Compile Include="Assets\I2\Localization\Scripts\Utils\StringObfuscator.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Codystar\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Baloo_Bhaina\OFL.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\RevealableText.shader" />
+    <None Include="Assets\Naninovel\Fonts\LICENSE.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Bubblegum_Sans\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Julius_Sans_One\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Quicksand\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Anton\OFL.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldComposition.cginc" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\TransitionalSprite.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Baloo_Chettan\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Shaders\DRimLightSelective.shader" />
+    <None Include="Assets\Naninovel\ThirdParty\UniTask\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldDiskBlur.cginc" />
     <None Include="Assets\I2\Localization\I2 Localization - Readme.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\TransitionalUI.shader" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfField.shader" />
     <None Include="Assets\Doozy\Examples\Shaders\DRimLightSolid.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Unica_One\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Monoton\OFL.txt" />
+    <None Include="Assets\Naninovel\ThirdParty\NLayer\LICENSE.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Crafty_Girls\LICENSE.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\NaninovelCG.cginc" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldDiskKernel.cginc" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldCommon.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Luckiest_Guy\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Permanent_Marker\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Doozy\Examples\Fonts\Megrim\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Doozy\readme.txt" />
     <None Include="Assets\Doozy\Examples\Shaders\DRimLightTransparent.shader" />
     <None Include="Assets\Doozy\Examples\Shaders\DLitSurface.shader" />
+    <None Include="Assets\Naninovel\ThirdParty\NCalc\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Emilys_Candy\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Flavors\OFL.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DigitalGlitch.shader" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\RevealableTMProText.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Pacifico\OFL.txt" />
     <None Include="Assets\Doozy\Examples\Fonts\Bangers\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\TransitionEffects.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldPrefilter.cginc" />
     <None Include="Assets\Doozy\Examples\Fonts\Secular_One\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Doozy\Examples\Fonts\Oswald\OFL.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/MyProject/Unity3d/MyTest/UITest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -1010,29 +1045,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{B25FBF8A-ECE0-B912-7853-4C543206F7D9}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{13A9ADF4-6381-406B-C041-B30705CEDB92}</Project>
+      <Name>UniRx.Async</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusEditor.csproj">
-      <Project>{2FF3CFF7-D73C-50E0-F92A-E5923AA7D64C}</Project>
-      <Name>FungusEditor</Name>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{42583C6E-E9ED-AC40-5FAB-B4FB3B140530}</Project>
+      <Name>UniRx.Async.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{ADBF6F09-0645-A72A-22F6-A927584BF29A}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
+    <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
+      <Project>{0D02A66A-DE62-1589-8BBD-D491672D3DE4}</Project>
+      <Name>Elringus.Naninovel.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{7F024155-9F8E-00F0-06AA-7CA437585D25}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{1ED6C1CF-47D0-860E-3747-98F794DF9760}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{19B0B47D-7618-0527-7F27-38C7C8F3EE30}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
+    <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
+      <Project>{AD2E2D2A-7D25-8481-A54C-803BD909DF4D}</Project>
+      <Name>Elringus.Naninovel.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
