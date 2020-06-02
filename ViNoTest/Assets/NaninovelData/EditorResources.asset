@@ -297,3 +297,5 @@ MonoBehaviour:
     - Name: Pimped
       PathPrefix: TextPrinters
       Guid: 59f926edd95e3dd42985fe1d4c09819c
+  - Id: Unlockables
+    Resources: []
