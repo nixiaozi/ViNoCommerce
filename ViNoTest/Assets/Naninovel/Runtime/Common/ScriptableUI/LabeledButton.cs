@@ -12,7 +12,7 @@ namespace Naninovel
         public Color LabelColorMultiplier
         {
             get => labelColorMultiplier; 
-            set { labelColorMultiplier = value; DoStateTransition(currentSelectionState, false); }
+            set { labelColorMultiplier = value; DoStateTransition(currentSelectionState, false); }  // 这里回自动调用翻译
         }
 
         [SerializeField] private Text labelText;

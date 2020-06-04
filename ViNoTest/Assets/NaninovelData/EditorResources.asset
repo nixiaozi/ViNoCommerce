@@ -117,6 +117,9 @@ MonoBehaviour:
     - Name: Main
       PathPrefix: Scripts
       Guid: 33fe60f5ce03a5a498f2eab673f24f90
+    - Name: Mymind
+      PathPrefix: Scripts
+      Guid: 2fbb23bbbca6a1f408c80eb0690a9feb
   - Id: CharacterAvatars
     Resources:
     - Name: n/Default
@@ -299,3 +302,17 @@ MonoBehaviour:
       Guid: 59f926edd95e3dd42985fe1d4c09819c
   - Id: Unlockables
     Resources: []
+  - Id: Characters/7b97e772-a1be-4daf-974d-932cc747c3e5
+    Resources:
+    - Name: Default
+      PathPrefix: Characters/me
+      Guid: bd67d7db47adf694888260bc19124b14
+    - Name: Thinking
+      PathPrefix: Characters/me
+      Guid: 86c8a82b49b36a74ab7f442b6c3ab3b4
+    - Name: Towardsay1
+      PathPrefix: Characters/me
+      Guid: a1071c2ff6bba06489cc94ccba8ead7c
+    - Name: Towardsay2
+      PathPrefix: Characters/me
+      Guid: e6a38c314c54ebe45a7486cbf47691cd

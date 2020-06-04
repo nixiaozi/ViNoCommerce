@@ -50,6 +50,6 @@ ControlPanel.Auto: AUTO
 Confirmation.Yes: YES
 Confirmation.No: NO
 TitleMenu.Continue: CONTINUE
-TitleMenu.Exit: EXIT
-TitleMenu.Settings: SETTINGS
+TitleMenu.Exit: 退出游戏
+TitleMenu.Settings: 设置
 CGGallery.Title: CG GALLERY

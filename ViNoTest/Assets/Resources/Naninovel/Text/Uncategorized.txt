@@ -1,1 +1,1 @@
-StartDemo: START DEMO
+StartDemo: 开始游戏

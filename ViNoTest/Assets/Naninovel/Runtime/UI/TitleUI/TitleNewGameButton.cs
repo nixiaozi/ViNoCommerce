@@ -20,6 +20,9 @@ namespace Naninovel.UI
             player = Engine.GetService<IScriptPlayer>();
             stateManager = Engine.GetService<IStateManager>();
             Debug.Assert(titleMenu && player != null);
+
+            titleMenu.Hide();
+            StartNewGameAsync();
         }
 
         protected override void Start ()
@@ -28,6 +31,10 @@ namespace Naninovel.UI
 
             if (string.IsNullOrEmpty(startScriptName))
                 UIComponent.interactable = false;
+            else
+                StartNewGameAsync();
+
+
         }
 
         protected override void OnButtonClick ()
